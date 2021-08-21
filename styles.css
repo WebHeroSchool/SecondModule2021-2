@@ -119,3 +119,124 @@ margin: -5px 746px;
 background: url(img/points.svg);
 background-repeat: no-repeat;
 }
+
+@media (max-width: 1521px) {
+.header{
+padding: 32px 50px 32px 1px;
+font: 500 17px/22px Roboto, arial, helvetica, sans-serif;
+}
+.main{
+padding: 115px 63% 18% 0;
+}
+.main__title{
+margin: 50px 40px 0 20px;font: 700 55px/88px pt_serifbold, arial, helvetica, sans-serif;
+}
+.main__subtitle{margin: 43px 0 40px 20px;
+font: 400 20px/26px Roboto, arial, helvetica, sans-serif;
+}
+.main__button{ font: 500 15px/21px Roboto, arial, helvetica, sans-serif;
+margin-top: -15px;
+margin-left: 20px;
+}
+}
+
+@media (max-width: 1367px) {
+  .logo {
+   margin-left: 75px;
+  }
+.menu__item {
+ margin: 3px 27px 0 0px;
+ font: 500 14px/17px Roboto, arial, helvetica, sans-serif;
+}
+.menu__item:last-child {
+    margin-right: 29;
+}
+.main__title {
+    width: 434px;
+    height: 195px;
+    margin: -11px 40px 0 75px;
+    font: 700 50px/66px pt_serifbold, arial, helvetica, sans-serif;
+}
+.main__subtitle {
+    width: 367px;
+    height: 43px;
+    margin: 41px 0 40px 77px;
+    font: 400 18px/21px Roboto, arial, helvetica, sans-serif;
+    }
+.main__button {
+    margin-top: 1px;
+    margin-left: 76px;
+    padding: 14px 26px 14px 17px;
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+}
+.main {
+    background-image: url(img/mainimg1366.svg);
+    background-position-x: 87%;
+    background-position-y: 88px;
+}
+.points {
+    margin: -47px 524px;
+}
+}
+
+@media (max-width: 1024px) {
+  .wrapper{
+    width: 94%;
+  }
+  .header {
+    padding: 32px 0px 32px 1px;
+  }
+  .logo {
+    margin: 0 0 0 7px;
+}
+.menu__item {
+    margin: 3px 24px 0 2px;
+}
+.menu__item:last-child {
+    margin: 3px 4px 0 4px;
+}
+.main {
+    background-position-x: 99%;
+}
+.main__title {
+    margin: -9px 0 0 8px;
+    font: 700 50px/64px pt_serifbold, arial, helvetica, sans-serif;
+}
+.main__subtitle {
+    margin: 39px 0 40px 10px;
+}
+.main__button {
+    padding: 14px 26px 14px 17px;
+    margin-left: 8px;
+}
+.points {
+    margin: -24px 458px;
+    }
+}
+
+@media (max-width: 768px) {
+ .menu {
+ display: none;
+ }
+ .header {
+ margin-bottom: 28px;
+ }
+ .main {
+ background-image: url(img/mainimg375.svg);
+ background-position: top center;
+ }
+ .main__title {
+ margin-bottom: 44px;
+ font: 30px/39px pt_serifbold, arial, helvetica, sans-serif;
+ }
+ .main__subtitle {
+ margin-bottom: 25px;
+ font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
+ }
+ .main__button {
+ font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+
+ }
+
+}
+
