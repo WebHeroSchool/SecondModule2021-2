@@ -263,26 +263,42 @@ margin-left: 20px;
 @media (max-width: 768px) {
  .menu {
  display: none;
- }
- .header {
- margin-bottom: 28px;
+}
+.header {
+    padding: 16px 0 1px 2px;
+}
+.logo {
+ margin: 0 0 0 3px;
+ background: url('img/logomobile.svg');
+ background-repeat: no-repeat;
  }
  .main {
  background-image: url(img/mainimg375.svg);
  background-position: top center;
+ background-position-x: 52%;
+ background-position-y: 27px;
  }
  .main__title {
- margin-bottom: 44px;
- font: 30px/39px pt_serifbold, arial, helvetica, sans-serif;
- }
- .main__subtitle {
- margin-bottom: 25px;
- font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
- }
- .main__button {
- font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
-
- }
-
+    width: 267px;
+    height: 96px;
+    text-align: center;
+    margin: 171px 0 0 38px;
+    font: 700 30px/40px pt_serifbold, arial, helvetica, sans-serif;
 }
-
+.main__subtitle {
+    width: 253px;
+    height: 62px;
+    margin: 56px 0px 40px 45px;
+    text-align: center;
+    font: 400 16px/19px Roboto, arial, helvetica, sans-serif;
+    }
+    .main__button {
+    width: 168px;
+    padding: 14px 25px 14px 16px;
+    margin: -20px 0 0 65px;
+    text-align: center;
+}
+.points {
+    display: none;
+}
+}
