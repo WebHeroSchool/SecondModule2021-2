@@ -375,7 +375,7 @@ display: none;
 .logo {
  margin: 0 0 0 3px;
  background: url('img/logomobile.svg');
- background-repeat: no-repeat;
+ background-repeat:  no-repeat;
  }
  .main {
  background-image: url(img/mainimg375.svg);
@@ -399,7 +399,7 @@ display: none;
     font: 400 16px/19px Roboto, arial, helvetica, sans-serif;
     }
     .main__button {
-    width: 168px;
+    width: 168px; 
     padding: 14px 25px 14px 16px;
     margin: -20px 0 0 65px;
     text-align: center;
