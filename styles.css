@@ -347,13 +347,13 @@ display: none;
 }
 .menu__item {
   display: block;
-  padding: 20px 0px;
+  padding: 20px;
   color: #333;
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
   font-weight: 600;
   text-decoration: none;
-}
+  }
 #menu__toggle:checked ~ .menu__btn > span {
   transform: rotate(45deg);
 }
@@ -383,25 +383,26 @@ display: none;
  background-position-x: 52%;
  background-position-y: 27px;
  background-size: auto;
+ padding: 286px 0 0 5px;
  }
  .main__title {
-    width: 267px;
+    width: 88%;
     height: 96px;
     text-align: center;
-    margin: 171px 0 0 38px;
+    margin: 0 auto 56px;
     font: 700 30px/40px pt_serifbold, arial, helvetica, sans-serif;
 }
 .main__subtitle {
     width: 253px;
     height: 62px;
-    margin: 56px 0px 40px 45px;
+    margin: 0 auto 20px;
     text-align: center;
     font: 400 16px/19px Roboto, arial, helvetica, sans-serif;
     }
     .main__button {
+    display: flex;
     width: 168px;
-    padding: 14px 25px 14px 16px;
-    margin: -20px 0 0 65px;
+    margin: 0 auto;
     text-align: center;
 }
 .points {
