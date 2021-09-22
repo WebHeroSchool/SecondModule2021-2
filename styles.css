@@ -274,9 +274,6 @@ background-position-y: 45%;
 .main__button {
     margin-left: -7px;
 }
-.points {
-display: none;
-}
 }
 @media (max-width: 923px) {
     .main__subtitle {
